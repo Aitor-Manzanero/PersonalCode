@@ -1,0 +1,32 @@
+*{
+    font-weight: normal;
+    font-size:100%;
+    font-style:inherit;
+}
+body {
+    background-color:#EBDCA7;
+}
+.size7{
+    font-size:47px;
+}
+.size6{
+    font-size:38px;
+}
+.size5{
+    font-size:30px;
+}
+.size4{
+    font-size:23px;
+}
+.size3{
+    font-size:17px;
+}
+.size2{
+    font-size:12px;
+}
+.size1{
+    font-size:8px;
+}
+.center{
+    text-align:center;
+}
