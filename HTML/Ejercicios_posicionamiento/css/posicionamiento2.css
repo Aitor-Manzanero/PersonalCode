@@ -1,0 +1,25 @@
+.prueba {
+
+    position:fixed;
+    right:25px;
+    top:25px;
+    background-color:rgb(245, 245, 245);
+    padding:25px 50px;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color:rgb(227, 227, 227);
+    font-weight: bold;
+    font-size:36px;
+    color:rgb(103, 34, 89);
+}
+
+.texto {
+    position:fixed;
+    left:50px;
+    bottom:50px;
+    background-color:rgb(193, 162, 240);
+    border-radius:10px;
+    padding:20px 10px;
+    width:270px;
+    color:rgb(0, 24, 240);
+}

@@ -1,0 +1,63 @@
+.contenedor_principal {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.caja_izquierda, .caja_derecha {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+}
+
+.caja_izquierda {
+    grid-column:1;
+}
+
+.tarjeta {
+    padding:20px;
+    position: relative;
+    overflow: hidden;
+    border:solid 1px gray;
+}
+
+.caja_izquierda > div:nth-child(3n+1) p:first-of-type {
+    background-color: rgb(55, 196, 251);
+    color:white;
+}
+
+
+.caja_izquierda > div:nth-child(3n+2) p:first-of-type {
+    background-color: rgb(254, 105, 194);
+    color:white;
+}
+
+.caja_izquierda > div:nth-child(3n) p:first-of-type {
+    background-color: rgb(247, 171, 20);
+    color:white;
+}
+
+.tarjeta_gris p:first-of-type {
+    background-color: rgb(144, 144, 144);
+    color:white;
+}
+
+.tarjeta_verde p:first-of-type {
+    background-color: rgb(66, 173, 91);
+    color:white;
+}
+
+.tarjeta_rosa p:first-of-type {
+    background-color: rgb(246, 86, 198);
+    color:white;
+}
+
+.tarjeta_morada p:first-of-type {
+    background-color: rgb(168, 4, 245);
+    color:white;
+}
+
+.tarjeta_magenta p:first-of-type {
+    background-color: rgb(245, 4, 108);
+    color:white;
+}

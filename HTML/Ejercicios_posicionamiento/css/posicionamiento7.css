@@ -1,0 +1,132 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box; /* Tiene en cuenta el padding y el border dentro del width y el height especificado */
+}
+
+body {
+    background-color: rgb(21, 21, 31);
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    min-height: 100vh;
+}
+
+h1 {
+    display:none;
+}
+
+h2 {
+    color:white;
+    font-size:24px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.contenedor_principal {
+  /*  flexbox
+    display: flex;  Pone el contenedor conciertos a la izquierda, y luego el banner a la derecha
+    gap:20px;Separa contenedor conciertos del banner */
+
+    max-width: 1400px;
+    width: 90%;
+    margin: auto;
+    padding:40px 0px;
+
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.contenedor_conciertos {
+  /* flexbox
+   width:70%;
+   display:flex;
+   flex-wrap: wrap; 
+   gap:20px; */
+
+   display:grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap:20px;
+}
+
+.tarjetas {
+    /*margin: auto;*/
+    max-width: 1200px;
+    padding:20px;
+    position: relative;
+    overflow: hidden;
+    border-radius:10px;
+    min-height: 260px;
+    background-size: cover;
+    background-position: center center;
+
+    /* flexbox
+    width:calc(33.33%-20px); */
+}
+
+.banner {
+    border-radius:10px;
+    background-size:cover;
+    background-position: center center;
+    text-align:center;  
+    padding: 20px;
+   
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /*Con grid
+    display:grid;
+    grid-template-rows:auto auto auto;
+    align-items:centern; */
+
+}
+
+.tarjetas .texto {
+	height: 100%;
+
+    /* Cómo sería con grid
+    display:grid;
+    grid-template-rows: 1fr auto; */
+
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+
+}
+
+.banner ul {
+	list-style: none;
+}
+ 
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+.banner .boton {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+
+}

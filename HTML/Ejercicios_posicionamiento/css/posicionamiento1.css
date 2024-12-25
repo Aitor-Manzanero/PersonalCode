@@ -1,0 +1,12 @@
+@font-face {
+    font-family:"Shadowed Germanica";
+    src:url(../font/germanica_family/Shadowed\ Germanica.ttf);
+
+}
+
+.letra_inicio {
+    float:left;
+    font-size:3em;
+    font-family:"Shadowed Germanica"; /* No funciona. Buscar cómo */
+    font-weight: normal;
+}

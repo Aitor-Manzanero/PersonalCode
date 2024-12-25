@@ -1,0 +1,45 @@
+body {
+    background-image:url(../img/fondo.jpg);
+    background-size:100% auto;
+    height:100%;
+}
+
+menu {
+    top:0px;
+    left:0px;
+    margin:0px;
+    padding:0px;
+    background-color: rgb(105, 164, 215);
+    position:fixed;
+    width:100%;
+    
+}
+
+menu li{
+    list-style-type: none;
+    display:inline-block;
+    padding:0px 25px;
+    border-left: solid 3px rgb(54, 54, 174);
+    color:white;
+    height:40px;
+    line-height:40px;
+}
+
+menu :first-child
+{
+    border-left:none;
+}
+
+article {
+    background-color:white;
+    margin:50px 25% 0%;
+    height:100%;
+    font-size:20px;
+    padding:5px 30px 30px;
+}
+
+p::first-letter {
+    font-size:60px;
+    float:left;
+    padding-right:5px;
+}
