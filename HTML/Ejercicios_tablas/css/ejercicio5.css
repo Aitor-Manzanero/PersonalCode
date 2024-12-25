@@ -1,0 +1,58 @@
+h1{
+    display:none;
+}
+
+th{
+    font-weight:normal;
+    background-color: rgba(13, 37, 124, 0.934);
+    color:antiquewhite;
+}
+
+table, th{
+    border:1px solid rgb(8, 8, 8);
+    border-collapse: collapse;
+
+}
+
+td{
+    padding:5px 35px;
+    text-align: center;
+}
+
+.dia_semana, .dia_semana td{
+    border: 1px solid rgb(202, 195, 195);
+    border-collapse: collapse;
+}
+
+.dia_semana:last-child{
+    border-right-color: black;
+}
+.dia_semana:first-child{
+    border-right-color: black;
+}
+
+table{
+    counter-reset: contador_dias;
+}
+
+.dia td::before{
+    counter-increment: contador_dias;
+    content:counter(contador_dias)" ";
+}
+
+.festivo{
+    color:rgb(223, 56, 34);
+    background-color: rgba(206, 199, 189, 0.426);
+}
+
+tr td:nth-last-child(-n+2){
+    background-color: rgba(206, 199, 189, 0.426);
+}
+
+tr:nth-child(2) td:nth-last-child(-n+2) {
+    background-color: initial;
+}
+
+/*Me queda por hacer: ver cómo empezar en el martes 1 y acabar en el lunes 28 y por otro 
+lado, borde oscuro en el primer tr td. Esto lo intento en lineas 27 a 31. También poner
+lunes y miércoles en azul, sin afectar a los festivos

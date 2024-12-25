@@ -1,0 +1,35 @@
+h1 {
+    display:none;
+}
+
+table {
+    border-collapse: collapse;
+    width:90%;
+    margin:auto;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th {
+    background-color: rgb(211, 210, 210);
+    text-align: left;
+    font-weight: normal;
+}
+
+.dark_gray th {
+    background-color: rgb(164, 164, 164);
+}
+
+th, td {
+    padding:7px 14px;
+}
+
+td {
+    text-align: right;
+}
+
+.main_head th {
+    font-weight:bold;
+}

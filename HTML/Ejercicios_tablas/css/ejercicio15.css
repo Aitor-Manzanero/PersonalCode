@@ -1,0 +1,50 @@
+h1 {
+    display: none;
+}
+
+table {
+    border-collapse:collapse;
+    margin: 60px auto;
+}
+
+caption {
+    margin-bottom: 15px;
+}
+
+table, th, td {
+    border: 1px solid gray;
+}
+
+th, td {
+    padding:5px 10px;
+}
+
+#chrome {
+    background-image:url(../img/chrome.png);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#edge {
+    background-image:url(../img/edge.png);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#firefox {
+    background-image:url(../img/firefox.png);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#safari {
+    background-image:url(../img/safari.png);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#opera {
+    background-image:url(../img/opera.png);
+    background-repeat: no-repeat;
+    background-position:center;
+}

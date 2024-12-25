@@ -1,0 +1,35 @@
+h1{
+    display: none;
+}
+
+table{
+    border-collapse: collapse;
+    width:80%;
+    margin:auto;
+    margin-top:50px;
+}
+
+table, th, td{
+    border:1px solid rgb(242, 248, 248);
+}
+
+th, td{
+    padding: 5px 10px;
+}
+
+th{
+    background-color: rgba(0, 0, 0, 0.907);
+    color:rgb(255, 255, 255);
+}
+
+tfoot{
+    background-color: rgba(195, 194, 194, 0.907);
+}
+
+.num{
+    text-align: right;
+}
+
+thead{
+    text-align:left;
+}

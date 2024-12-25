@@ -1,0 +1,28 @@
+h1 {
+    display:none;
+}
+
+table {
+    border: 1px solid rgb(200, 200, 200);
+    margin:40px auto;
+}
+
+td {
+    text-align: center;
+}
+
+td, th {
+    padding:4px 32px;
+}
+
+caption {
+    margin-bottom:32px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.imagen_cuadrado {
+    display: block;
+    width:24px;
+    height:24px;
+}

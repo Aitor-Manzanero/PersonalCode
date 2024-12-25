@@ -1,0 +1,46 @@
+h1 {
+    margin-left:45px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid #806e7a;
+    padding:12px;
+}
+tr:last-child {
+    border-bottom: 2px solid rgb(22, 116, 22);
+}
+
+tr:nth-child(odd) td{
+    background-color: rgb(237, 225, 225);
+}
+
+.tabla_arriba{
+ background-color: rgb(178, 1, 254);
+ color:aliceblue;
+}
+
+.tabla_abajo{
+    background-color: rgba(234, 142, 23, 0.964);
+    color:aliceblue;
+}
+
+.caja_arriba{
+    margin:auto;
+    margin-left:15px;
+    margin-bottom:40px;
+    width:80%;
+}
+.caja_abajo{
+
+    width:55%;
+    margin:auto;
+    margin-left:15px;
+}
+
+td {
+    padding-left:20px;
+}

@@ -1,0 +1,37 @@
+table, th,td{
+    border: 1px solid rgb(206, 199, 199);
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.capacidad_1{
+    background-image:url(../img/color_blanco.png);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.capacidad_2{
+    background-image:url(../img/color_negro.png),
+                     url(../img/color_verde.png),
+                     url(../img/color_azul.png),
+                     url(../img/color_rosa.png);
+    background-repeat: no-repeat;
+    background-position: 20%, 40%, 60%, 81%;
+}
+
+.capacidad_3{
+    background-image: url(../img/color_negro.png);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.capacidad_grande{
+    background-image: url(../img/color_blanco.png),
+                     url(../img/color_negro.png);
+    background-repeat: no-repeat;         
+    background-position: 46%, 54%;        
+}
+
+.deshabilitar{
+    display: none;
+}
