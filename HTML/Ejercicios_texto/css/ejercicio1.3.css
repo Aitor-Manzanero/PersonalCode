@@ -1,0 +1,20 @@
+body {
+    background-color:#EBDCA7;
+}
+h2 {
+    text-align:center;
+}
+div {
+    text-align:center;
+}
+.right {
+    text-align:right;
+}      
+.center {
+    text-align:center;
+  
+}
+#mitadBarra {
+    width:50%;
+    height:3px;  /* esta medida correspone con el size=5 corregido*/
+}

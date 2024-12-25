@@ -1,0 +1,17 @@
+#lin-red{
+    border-color: red;
+}
+#lin-green{
+    border-color:green;
+    width:80%;
+}
+#lin-red-grande{
+    border-color:red;
+    border-style:solid;
+    border-width: 15px;
+}
+#lin-green-right{
+    border-color: green;
+    width: 80%;
+    margin-right: 0px;
+}
