@@ -1,0 +1,17 @@
+h5{
+ font-size:32px;   
+ margin-top:7px;
+ margin-bottom:7px;
+}
+dd{
+    margin-left:25px;
+}
+dt{
+    font-weight: bold;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+abbr{
+    font-style: italic;
+    margin-right:5px;
+}

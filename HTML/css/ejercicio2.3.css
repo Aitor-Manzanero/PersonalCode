@@ -1,0 +1,22 @@
+h1{
+    font-size:18px;
+}
+hr{
+    width:50%;
+    margin-left:0px;
+    height:3px;
+    background-color:black;
+    margin-bottom:4px;
+}
+.barra_fina{
+    height:1px;
+}
+p{
+    margin:10px;
+    margin-left:0px;
+}
+/*
+ol{
+    list-style-type: upper-latin;
+}
+*/
